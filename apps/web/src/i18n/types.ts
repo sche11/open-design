@@ -480,6 +480,7 @@ export interface Dict {
   'fileViewer.download': string;
   'fileViewer.open': string;
   'fileViewer.imageMeta': string;
+  'fileViewer.reactMeta': string;
   'fileViewer.sketchMeta': string;
   'fileViewer.markdownStreamingMeta': string;
   'fileViewer.markdownErrorMeta': string;
@@ -519,6 +520,8 @@ export interface Dict {
   'fileViewer.exportPptxNa': string;
   'fileViewer.exportZip': string;
   'fileViewer.exportHtml': string;
+  'fileViewer.exportJsx': string;
+  'fileViewer.exportReactHtml': string;
   'fileViewer.saveAsTemplate': string;
   'fileViewer.savingTemplate': string;
   'fileViewer.savedTemplate': string;

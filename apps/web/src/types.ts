@@ -66,6 +66,7 @@ export type { ChatAttachment, ChatMessage };
 
 export interface Artifact {
   identifier: string;
+  artifactType?: string;
   title: string;
   html: string;
   savedUrl?: string;
